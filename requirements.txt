@@ -1,0 +1,10 @@
+streamlit==1.32.2
+torch==2.1.2
+torchaudio==2.1.2
+numpy
+scipy
+soundfile
+omegaconf
+einops
+julius
+git+https://github.com/facebookresearch/audiocraft.git
