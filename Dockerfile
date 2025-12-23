@@ -28,4 +28,5 @@ ENV USE_XFORMERS=0
 EXPOSE 7860
 
 # Start Streamlit
-CMD ["streamlit", "run", "app.py"]
+CMD ["streamlit", "run", "app.py", "--server.port=7860", "--server.address=0.0.0.0"]
+
